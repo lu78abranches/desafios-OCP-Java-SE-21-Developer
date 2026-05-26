@@ -3,7 +3,7 @@ public class Main {
 	Vehicle vehicle1 = new Vehicle();
 	vehicle1.brand = "Volks";
         vehicle1.year = 2014;
-        //vehicle1.fuelLevel = 54.0;
+        vehicle1.fuelLevel = 54.0;
 
         vehicle1.refuel(30.0);
 
@@ -27,10 +27,13 @@ public class Main {
 	b.fuelLevel = 99.0;
 	System.out.println(a.fuelLevel);
 
-	Vehicle car3 = new Vehicle();
-	Vehicle car4 = vehicle1;
-	Vehicle car5 = vehicle1;
-	car4 = null;// Unreferenced object eligible for garbage collection
+	Vehicle varA = new Vehicle();
+	Vehicle varB = varA;
+	Vehicle varC = varA;
+	varA = null; // not yet eligible because varB and varC points to the varA
+	varB = null; // not yet eligible because varC points to the varA 
+	varC = null; // yes now eligible because no variable points to the varA.
+	 
 	
 	
 
