@@ -1,3 +1,10 @@
+/*### **BLOCO 1 — Classes, Objetos e Ciclo de Vida**
+
+**Desafio 01 — Blueprint e instâncias**
+Crie uma classe `Vehicle` com os campos `brand` (String), `year` (int) e `fuelLevel` (double). Crie um método `refuel(double amount)` que soma ao `fuelLevel`. No método `main` de outra classe, instancie dois `Vehicle` distintos, atribua valores diferentes e chame `refuel` em apenas um deles. Imprima os campos de ambos.
+
+> 🔍 *O que o exame vai cobrar:* diferença entre classe (blueprint) e objeto (instância), que campos de instâncias são independentes entre si.*/
+
 public class Main {
 	public static void main(String [] args) {
 	Vehicle vehicle1 = new Vehicle();
@@ -27,13 +34,7 @@ public class Main {
 	b.fuelLevel = 99.0;
 	System.out.println(a.fuelLevel);
 
-	Vehicle varA = new Vehicle();
-	Vehicle varB = varA;
-	Vehicle varC = varA;
-	varA = null; // not yet eligible because varB and varC points to the varA
-	varB = null; // not yet eligible because varC points to the varA 
-	varC = null; // yes now eligible because no variable points to the varA.
-	 
+		 
 	
 	
 
