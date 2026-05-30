@@ -5,21 +5,21 @@ public class Varargs {
 		total += n;
 	}
 	return total;
-	}*/
-	/*public int sum(int... a, int... b){
+	}
+	public int sum(int... a, int... b){
 	int total = a;
 	for(int n : b){
 		total += n;
 	}
 	return total;
-	}*/
+	}
 	public int sum(int first, int... rest){
 	int total = first;
 	for(int n : rest){
 		total += n;
 	}
 	return total;
-	}
+	}*/
 
 	public static void main(String[] args){
 	Varargs obj = new Varargs();
