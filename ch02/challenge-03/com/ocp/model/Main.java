@@ -2,8 +2,8 @@ package com.ocp.model;
 
 class Main{
 	public static void main(String[] args){
-		Circle cir = new Circle();
-		Rectangle rec = new Rectangle();
+		Circle cir = new Circle("Roxo");
+		Rectangle rec = new Rectangle("Verde");
 		cir.radius = 10;
 		System.out.println(cir.area());
 		rec.area();
