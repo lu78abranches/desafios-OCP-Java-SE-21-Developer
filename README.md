@@ -9,6 +9,6 @@ ch02/ - Utilizing Java OOP Approach - Part 2
 ...
 
 ## Progresso
-- [x] Capítulo 01 - em andamento
-- [ ] Capítulo 02 
+- [x] Capítulo 01 - concluído
+- [x] Capítulo 02 - em andamento
  
