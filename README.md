@@ -9,7 +9,7 @@ ch02/ - Utilizing Java OOP Approach - Part 2
 ...
 
 ## Progresso
-- [x] [Capítulo 01](.ch01/README.md) - concluído
-- [x] [Capítulo 02](.ch02/README.md) - em andamento
-- [] Capítulo 03 - pendente
+- [x] [Capítulo 01](.ch01/README.md). - concluído
+- [x] [Capítulo 02](.ch02/README.md). - em andamento
+- [ ] Capítulo 03 - pendente
  
